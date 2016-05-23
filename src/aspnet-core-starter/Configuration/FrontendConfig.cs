@@ -8,10 +8,10 @@ namespace aspnet_core_starter.Configuration
 {
     public class FrontendConfig
     {
-        public string AppHash { get; set; }
+        public string MainHash { get; set; }
         public string VendorHash { get; set; }
         public string PolyfillsHash { get; set; }
-        public string ChunksHash { get; set; }
-        public string FrontendHost { get; set; }
+        public string ChunkHash { get; set; }
+        public string ScriptHost { get; set; }
     }
 }

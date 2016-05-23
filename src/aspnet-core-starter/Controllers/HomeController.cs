@@ -20,11 +20,11 @@ namespace aspnet_core_starter.Controllers
 
         public IActionResult Index()
         {
-            string appHash = Options.AppHash;
+            string appHash = Options.MainHash;
             string vendorHash = Options.VendorHash;
-            string chunkHash = Options.PolyfillsHash;
+            string chunkHash = Options.ChunkHash;
             string polyfillsHash = Options.PolyfillsHash;
-            string frontendHost = Options.FrontendHost;
+            string frontendHost = Options.ScriptHost;
             var viewModel = new HomeModel()
             {
                 VendorScriptUrl = getScriptUrl("vendor.bundle.js", vendorHash, frontendHost),
