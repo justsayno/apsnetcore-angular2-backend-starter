@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-aspnet_core_starter-3d00a35d-21de-4aec-9175-5e07fc45ebe3",
 
   "dependencies": {
@@ -37,7 +37,8 @@
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview1-final",
       "type": "build"
-    }
+    },
+    "Microsoft.Extensions.Configuration.Binder": "1.0.0-rc2-final"
   },
 
   "tools": {
